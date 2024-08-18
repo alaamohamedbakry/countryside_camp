@@ -1,0 +1,168 @@
+/* Created by Tivotal */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-image: url('images/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    /* Bianco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  max-width: 700px;
+  width: 100%;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.wrapper .title {
+  color: #4070f4;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+form .user-details {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 12px 0 12px 0;
+}
+
+.date-time .col,
+.user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  position: relative;
+
+}
+
+.input-box i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  color: #aaa;
+  pointer-events: none;
+
+}
+
+.date-time input,
+.input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.date-time,
+.date-time .inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.date-time span {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+
+}
+
+.date-time input:nth-child(1) {
+  width: 60%;
+}
+
+.date-time input:nth-child(2) {
+  width: 40%;
+  margin-left: 10px;
+}
+
+form .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.row .box {
+  width: 100%;
+  height: 60px;
+}
+
+.box select {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  padding-left: 15px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box:nth-child(1) select {
+  border-radius: 5px 0 0 5px;
+}
+
+.box:nth-child(3) select {
+  border-radius: 0 5px 5px 0;
+
+}
+
+form button {
+
+  margin-top: 30px;
+  height: 45px;
+  width: 100%;
+  background: #4070f4;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  opacity: 0.8;
+
+}
